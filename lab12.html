@@ -1,112 +1,82 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Привітання з Днем Народження</title>
+    <title>Home | [Your Website Name]</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f0f8ff;
-            padding: 20px;
-            box-sizing: border-box;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-        .card {
-            border: 2px solid #ff69b4;
-            border-radius: 15px;
-            padding: 20px;
-            text-align: center;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 100%;
-            box-sizing: border-box;
-        }
-        .card img {
-            border-radius: 15px;
-            max-width: 100%;
-            height: auto;
-        }
-        .card h1 {
-            color: #ff69b4;
-        }
-        .message, .photos {
-            display: none;
-            margin-top: 20px;
-            color: #333;
-        }
-        .photos {
-            display: none;
-            margin-top: 20px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Змінено на 2 стовпці */
-            gap: 10px;
-        }
-        .photos img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .btn {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #ff69b4;
+        header {
+            background-color: #333;
             color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
+            padding: 10px 0;
+            text-align: center;
         }
-        .btn:hover {
-            background-color: #ff1493;
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #444;
+            text-align: center;
         }
-        @media (min-width: 600px) {
-            .card {
-                max-width: 80%;
-            }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
         }
-        @media (min-width: 768px) {
-            .card {
-                max-width: 60%;
-            }
+        nav a:hover {
+            text-decoration: underline;
         }
-        @media (min-width: 1024px) {
-            .card {
-                max-width: 40%;
-            }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <img src="photo_2024-06-20_21-54-05-removebg-preview.png" alt="Фото Марії">
-        <h1>З Днем Народження, Маріє!</h1>
-        <p>Вітаємо тебе з 8-річчям! Нехай цей день буде сповнений радості, сміху та подарунків!</p>
-        <button class="btn" onclick="showMessage()">Показати більше</button>
-        <div class="message" id="extraMessage">
-            <p>Бажаємо тобі багато щасливих моментів, нових досягнень і веселих пригод!</p>
-            <div class="photos" id="photoGallery">
-                <img src="photo_2024-06-20_22-30-43.jpg" alt="Фото 1">
-                <img src="photo_2024-06-20_22-30-47.jpg" alt="Фото 2">
-                <img src="photo_2024-06-20_22-30-50.jpg" alt="Фото 3">
-                <img src="photo_2024-06-20_22-30-53.jpg" alt="Фото 4">
-                <img src="photo_2024-06-20_22-30-58.jpg" alt="Фото 5">
-                <img src="photo_2024-06-20_22-31-01.jpg" alt="Фото 6">
-                <img src="photo_2024-06-20_22-31-04.jpg" alt="Фото 7">
-                <img src="photo_2024-06-20_22-31-08.jpg" alt="Фото 8">
-            </div>
-        </div>
+
+    <header>
+        <h1>Welcome to [Your Website Name]</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Support</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>Starting a New Life</h2>
+        <p>Welcome to our platform! We're here to help you navigate the challenges of settling in a new country. Explore our resources to get started.</p>
+
+        <h3>What We Offer:</h3>
+        <ul>
+            <li>Registration Assistance</li>
+            <li>Essential Services</li>
+            <li>Community Support</li>
+            <li>Legal Guidance</li>
+            <li>Job Search Help</li>
+        </ul>
     </div>
 
-    <script>
-        function showMessage() {
-            document.getElementById('extraMessage').style.display = 'block';
-            document.getElementById('photoGallery').style.display = 'grid';
-        }
-    </script>
+    <footer>
+        <p>&copy; 2024 [Your Website Name]. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
