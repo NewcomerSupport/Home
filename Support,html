@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support | Newcomer Support</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(135deg, #e3a0ff, #8c52ff);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2a2a2a;
+            padding: 15px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 30px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 30px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+            background: linear-gradient(135deg, #8c52ff, #e3a0ff);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        nav a:hover {
+            background-color: #d1a3ff;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #2a2a2a;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            text-align: center;
+        }
+        .container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 25px;
+            color: #e3a0ff;
+        }
+        .container p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        .container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .container ul li {
+            font-size: 1.3rem;
+            background: url('https://via.placeholder.com/20') no-repeat left center;
+            background-size: 18px;
+            padding-left: 40px;
+            margin-bottom: 15px;
+            color: #d1a3ff;
+        }
+        footer {
+            background: linear-gradient(135deg, #8c52ff, #e3a0ff);
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            nav a {
+                margin: 0 15px;
+                padding: 8px 20px;
+            }
+            .container {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Support</h1>
+    </header>
+
+    <nav>
+        <a href="https://newcomersupport.github.io/Home/welcome.html#">Home</a>
+        <a href="https://newcomersupport.github.io/Home/Service.html#">Services</a>
+        <a href="#">Support</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>We Are Here to Help</h2>
+        <p>At Newcomer Support, we understand the challenges of starting a new life in a new country. Our support team is dedicated to providing you with the assistance you need, every step of the way.</p>
+
+        <h3>Our Support Services Include:</h3>
+        <ul>
+            <li>24/7 Hotline for Immediate Help</li>
+            <li>One-on-One Consultations</li>
+            <li>Legal and Immigration Support</li>
+            <li>Job Placement Assistance</li>
+            <li>Community Integration Programs</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Newcomer Support. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
