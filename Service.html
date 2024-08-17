@@ -66,17 +66,15 @@
             margin-bottom: 25px;
         }
         .service-section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; /* Розподіл блоків */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
         .service-box {
-            width: 48%; /* Ширина блоків для двох в рядку */
             background-color: #3a3a3a;
             padding: 20px;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-            margin-bottom: 20px; /* Проміжок між рядками */
             text-align: left;
         }
         .service-box h3 {
@@ -89,8 +87,8 @@
             color: #ccc;
         }
         .service-box img {
-            width: 500px;
-            height: 300px;
+            width: 100%;
+            height: auto;
             border-radius: 10px;
             margin-top: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -112,8 +110,8 @@
             color: #fff;
         }
         @media (max-width: 768px) {
-            .service-box {
-                width: 100%; /* На менших екранах блоки будуть в один рядок */
+            .service-section {
+                grid-template-columns: 1fr;
             }
             nav a {
                 margin: 0 10px;
